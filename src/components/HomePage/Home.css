@@ -1,0 +1,60 @@
+/* Home Section - Modern and Beautiful Style */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background: url(https://img.freepik.com/free-photo/smiling-senior-man-saying-hello-digital-tablet_23-2147859803.jpg?t=st=1746615312~exp=1746618912~hmac=d4ded226f04ba9a81b8afe5730b0d1bee05f71bac21bba162a8798a9b573f7d9&w=996)
+    center/cover no-repeat;
+  
+  text-align: center;
+  min-height: 80vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.home-description {
+  font-size: 1.25rem;
+  color: black;
+  max-width: 700px;
+  margin-bottom: 35px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.primary-button {
+  padding: 14px 30px;
+  background-color: #00bfff;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: #009acd;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0, 191, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 1.8em;
+  }
+
+  .home-description {
+    font-size: 1em;
+  }
+}
